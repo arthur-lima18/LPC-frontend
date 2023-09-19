@@ -1,0 +1,27 @@
+html, 
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --color-white: #F5F5EF;
+    --color-green-1: #81A969;
+    --color-green-2: #6E9277;
+    --color-green-3: #3D5A48;
+    --color-gray: #304543;
+    --color-red: #EB5959;
+}
+
+.bg-green-1 {
+    background-color: var(--color-green-1);
+}
+.bg-green-2 {
+    background-color: var(--color-green-2);
+}
+.bg-green-3 {
+    background-color: var(--color-green-3);
+}
+.bg-white {
+    background-color: var(--color-white);
+}
